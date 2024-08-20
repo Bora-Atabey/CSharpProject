@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Try_Catch
 {
-    internal class OzelHataSinifi
+    public class OzelHataSinifi:Exception
     {
+        public OzelHataSinifi()
+        {
+            Console.WriteLine("Özel hata sınıfı oluştu.");
+        }
     }
 }
