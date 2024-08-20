@@ -11,6 +11,7 @@ namespace Try_Catch
         public OzelHataSinifi()
         {
             Console.WriteLine("Özel hata sınıfı oluştu.");
+            Console.WriteLine("Özel hata sınıfı oluştu.");
         }
     }
 }
